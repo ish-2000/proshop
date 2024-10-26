@@ -1,6 +1,6 @@
 // src/components/Header.jsx
-import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import React from "react";
+import { Navbar, Nav } from "react-bootstrap";
 
 const Header = () => {
   return (
@@ -12,11 +12,12 @@ const Header = () => {
           <Nav className="ml-auto">
             <Nav.Link href="/cart">Cart</Nav.Link>
             <Nav.Link href="/login">Sign In</Nav.Link>
+            <Nav.Link href="/help">Help</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
     </header>
   );
-}
+};
 
 export default Header;
