@@ -36,8 +36,9 @@ const Dashboard = () => {
       <Row gutter={16}>
         <Col xs={24} md={8}>
           <Card title="Profile Info">
-            <Text strong>Name: </Text> John Doe <br />
-            <Text strong>Email: </Text> john@example.com <br />
+            <Text strong>Name: </Text> Test data <br />
+            <Text strong>Email: </Text> Test data
+            <br />
             <Button type="primary" className="mt-2">
               Edit Profile
             </Button>
